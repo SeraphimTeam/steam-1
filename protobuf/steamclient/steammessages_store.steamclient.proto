@@ -305,6 +305,8 @@ message CStore_UserPreferences {
     optional EProvideDeckFeedbackPreference provide_deck_feedback = 12;
     optional string additional_languages = 13;
     optional EGameFrameRateReportingPreference game_frame_rate_reporting = 14;
+    optional bool disable_microtrailers = 15;
+    optional bool disable_animated_marketing = 16;
 }
 
 message CStore_UserTagPreferences {
@@ -414,6 +416,7 @@ message CStore_ReloadAllReservationPositionMessages_Notification {
 message CSteamDeckCompatibility_SetFeedback_Request {
     optional uint32 appid = 1;
     optional ESteamDeckCompatibilityFeedback feedback = 2;
+    optional uint32 feedback_details = 3;
 }
 
 message CSteamDeckCompatibility_SetFeedback_Response {
