@@ -12,15 +12,15 @@
       "filename": "steamclient64.dll",
       "path": "D:\\a\\_temp\\beta-win64\\steamclient64.dll",
       "component": "steamclient",
-      "sha256": "1c00385f36c7c92c29d93e0396265cf61c23bd68cc96f1061f8e827f92e610bc",
-      "size": 26315928
+      "sha256": "2582482f5387210c1f0de4b2ce7c7e2c463a33971e69aa602cc20bb3b9f7470a",
+      "size": 26328216
     },
     {
       "filename": "SteamUI.dll",
       "path": "D:\\a\\_temp\\beta-win64\\SteamUI.dll",
       "component": "steamui",
-      "sha256": "067e232ff8dea355142f5d8065924f5078afbb907fcf10ad6700fa44106ab67f",
-      "size": 18950296
+      "sha256": "48b4958452ec0a6c62d5471161ddef6640758ba915bd08422e6f1743dff65367",
+      "size": 18962584
     }
   ],
   "branches": {
@@ -144,8 +144,8 @@
             {
               "filename": "steamclient64.dll",
               "path": "D:\\a\\_temp\\beta-win64\\steamclient64.dll",
-              "sha256": "1c00385f36c7c92c29d93e0396265cf61c23bd68cc96f1061f8e827f92e610bc",
-              "size": 26315928,
+              "sha256": "2582482f5387210c1f0de4b2ce7c7e2c463a33971e69aa602cc20bb3b9f7470a",
+              "size": 26328216,
               "accepted_descriptors": 107
             }
           ]
@@ -259,8 +259,8 @@
             {
               "filename": "SteamUI.dll",
               "path": "D:\\a\\_temp\\beta-win64\\SteamUI.dll",
-              "sha256": "067e232ff8dea355142f5d8065924f5078afbb907fcf10ad6700fa44106ab67f",
-              "size": 18950296,
+              "sha256": "48b4958452ec0a6c62d5471161ddef6640758ba915bd08422e6f1743dff65367",
+              "size": 18962584,
               "accepted_descriptors": 98
             }
           ]
@@ -272,10 +272,10 @@
         {
           "component": "steamclient",
           "binary": "D:\\a\\_temp\\beta-win64\\steamclient64.dll",
-          "sha256": "1c00385f36c7c92c29d93e0396265cf61c23bd68cc96f1061f8e827f92e610bc",
+          "sha256": "2582482f5387210c1f0de4b2ce7c7e2c463a33971e69aa602cc20bb3b9f7470a",
           "interface_count": 2,
           "missing_interfaces": [],
-          "file": "ipc/steamclient/1c00385f36c7c92c29d93e0396265cf61c23bd68cc96f1061f8e827f92e610bc.toml"
+          "file": "ipc/steamclient/2582482f5387210c1f0de4b2ce7c7e2c463a33971e69aa602cc20bb3b9f7470a.toml"
         }
       ]
     },
@@ -284,20 +284,20 @@
         {
           "component": "steamclient",
           "binary": "D:\\a\\_temp\\beta-win64\\steamclient64.dll",
-          "sha256": "1c00385f36c7c92c29d93e0396265cf61c23bd68cc96f1061f8e827f92e610bc",
+          "sha256": "2582482f5387210c1f0de4b2ce7c7e2c463a33971e69aa602cc20bb3b9f7470a",
           "entry_count": 24,
           "missing_targets": [
             "OptedInMask"
           ],
-          "file": "pattern/steamclient/1c00385f36c7c92c29d93e0396265cf61c23bd68cc96f1061f8e827f92e610bc.toml"
+          "file": "pattern/steamclient/2582482f5387210c1f0de4b2ce7c7e2c463a33971e69aa602cc20bb3b9f7470a.toml"
         },
         {
           "component": "steamui",
           "binary": "D:\\a\\_temp\\beta-win64\\SteamUI.dll",
-          "sha256": "067e232ff8dea355142f5d8065924f5078afbb907fcf10ad6700fa44106ab67f",
+          "sha256": "48b4958452ec0a6c62d5471161ddef6640758ba915bd08422e6f1743dff65367",
           "entry_count": 10,
           "missing_targets": [],
-          "file": "pattern/steamui/067e232ff8dea355142f5d8065924f5078afbb907fcf10ad6700fa44106ab67f.toml"
+          "file": "pattern/steamui/48b4958452ec0a6c62d5471161ddef6640758ba915bd08422e6f1743dff65367.toml"
         }
       ]
     },
