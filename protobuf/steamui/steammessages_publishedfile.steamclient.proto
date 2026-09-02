@@ -292,6 +292,7 @@ message CPublishedFile_GetItemInfo_Request {
     optional uint32 last_time_updated = 2;
     repeated CPublishedFile_GetItemInfo_Request.WorkshopItem workshop_items = 3;
     optional EPublishedFileRevision desired_revision = 4 [default = k_EPublishedFileRevision_Default];
+    optional bool full_reconcile = 5;
 }
 
 message CPublishedFile_GetItemInfo_Response {
@@ -681,6 +682,7 @@ message CPublishedFile_GetItemChanges_Request {
     optional uint32 last_time_updated = 2;
     optional uint32 num_items_max = 3;
     optional EPublishedFileRevision desired_revision = 4;
+    optional bool include_legacy_items = 5;
 }
 
 message CPublishedFile_GetItemChanges_Response {
@@ -689,6 +691,7 @@ message CPublishedFile_GetItemChanges_Response {
         optional uint32 time_updated = 2;
         optional fixed64 manifest_id = 3;
         repeated PublishedFileAuthorSnapshot author_snapshots = 4;
+        optional uint32 flags = 5;
     }
 
     optional uint32 update_time = 1;
