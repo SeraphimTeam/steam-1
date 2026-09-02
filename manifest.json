@@ -285,10 +285,8 @@
           "component": "steamclient",
           "binary": "D:\\a\\_temp\\beta-win64\\steamclient64.dll",
           "sha256": "2a5c1b50bbc052bc725b488ca299902ab934fe26f710135a0207d6e8958c5542",
-          "entry_count": 24,
-          "missing_targets": [
-            "OptedInMask"
-          ],
+          "entry_count": 25,
+          "missing_targets": [],
           "file": "pattern/steamclient/2a5c1b50bbc052bc725b488ca299902ab934fe26f710135a0207d6e8958c5542.toml"
         },
         {
