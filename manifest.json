@@ -12,15 +12,15 @@
       "filename": "steamclient64.dll",
       "path": "D:\\a\\_temp\\beta-win64\\steamclient64.dll",
       "component": "steamclient",
-      "sha256": "caba4826aa3501039d095aee1843a6bfb270fb43a3ab4455b2d6733223579fee",
-      "size": 26328216
+      "sha256": "ea23997e2b376df52bf9bbd3f6d2ba628c3b669b45381c03948fe209a7a0e36f",
+      "size": 26527896
     },
     {
       "filename": "SteamUI.dll",
       "path": "D:\\a\\_temp\\beta-win64\\SteamUI.dll",
       "component": "steamui",
-      "sha256": "cb387adefbbac64a3c1490d4275d00daf3a1e0219b4580726ef7681db7429278",
-      "size": 18962584
+      "sha256": "e7044958d8e652eef04990f74102b42824dfd74fef5b586a42d28ca9d152bf1e",
+      "size": 19342488
     }
   ],
   "branches": {
@@ -28,7 +28,7 @@
       "groups": [
         {
           "name": "steamclient",
-          "descriptor_count": 107,
+          "descriptor_count": 110,
           "files": [
             "clientmetrics.proto",
             "content_manifest.proto",
@@ -43,6 +43,7 @@
             "steamdatagram_messages_auth.proto",
             "steamdatagram_messages_sdr.proto",
             "steammessages_accounthardware.steamclient.proto",
+            "steammessages_appratings_types.proto",
             "steammessages_auth.steamclient.proto",
             "steammessages_base.proto",
             "steammessages_broadcast.steamclient.proto",
@@ -101,6 +102,7 @@
             "steammessages_site_license.steamclient.proto",
             "steammessages_sitelicenseclient.proto",
             "steammessages_siteserverui.proto",
+            "steammessages_steamawards_types.proto",
             "steammessages_steamtv.steamclient.proto",
             "steammessages_store.steamclient.proto",
             "steammessages_storebrowse.steamclient.proto",
@@ -120,6 +122,7 @@
             "webuimessages_audio.proto",
             "webuimessages_base.proto",
             "webuimessages_bluetooth.proto",
+            "webuimessages_compatmanager.proto",
             "webuimessages_gamenotes.proto",
             "webuimessages_gamerecording.proto",
             "webuimessages_gamerecordingfiles.proto",
@@ -144,15 +147,15 @@
             {
               "filename": "steamclient64.dll",
               "path": "D:\\a\\_temp\\beta-win64\\steamclient64.dll",
-              "sha256": "caba4826aa3501039d095aee1843a6bfb270fb43a3ab4455b2d6733223579fee",
-              "size": 26328216,
-              "accepted_descriptors": 107
+              "sha256": "ea23997e2b376df52bf9bbd3f6d2ba628c3b669b45381c03948fe209a7a0e36f",
+              "size": 26527896,
+              "accepted_descriptors": 110
             }
           ]
         },
         {
           "name": "steamui",
-          "descriptor_count": 98,
+          "descriptor_count": 102,
           "files": [
             "clientmetrics.proto",
             "contenthubs.proto",
@@ -168,6 +171,7 @@
             "offline_ticket.proto",
             "steammessages_accounthardware.steamclient.proto",
             "steammessages_appoverview.proto",
+            "steammessages_appratings_types.proto",
             "steammessages_auth.steamclient.proto",
             "steammessages_base.proto",
             "steammessages_broadcast.steamclient.proto",
@@ -178,6 +182,7 @@
             "steammessages_clientmetrics.steamclient.proto",
             "steammessages_clientnotificationtypes.proto",
             "steammessages_clientserver_friends.proto",
+            "steammessages_clientserver_gameservers.proto",
             "steammessages_clientserver_video.proto",
             "steammessages_clientsettings.proto",
             "steammessages_cloud.steamclient.proto",
@@ -219,6 +224,7 @@
             "steammessages_site_license.steamclient.proto",
             "steammessages_sitelicenseclient.proto",
             "steammessages_siteserverui.proto",
+            "steammessages_steamawards_types.proto",
             "steammessages_steamtv.steamclient.proto",
             "steammessages_store.steamclient.proto",
             "steammessages_storebrowse.steamclient.proto",
@@ -235,6 +241,7 @@
             "webuimessages_audio.proto",
             "webuimessages_base.proto",
             "webuimessages_bluetooth.proto",
+            "webuimessages_compatmanager.proto",
             "webuimessages_gamenotes.proto",
             "webuimessages_gamerecording.proto",
             "webuimessages_gamerecordingfiles.proto",
@@ -259,9 +266,9 @@
             {
               "filename": "SteamUI.dll",
               "path": "D:\\a\\_temp\\beta-win64\\SteamUI.dll",
-              "sha256": "cb387adefbbac64a3c1490d4275d00daf3a1e0219b4580726ef7681db7429278",
-              "size": 18962584,
-              "accepted_descriptors": 98
+              "sha256": "e7044958d8e652eef04990f74102b42824dfd74fef5b586a42d28ca9d152bf1e",
+              "size": 19342488,
+              "accepted_descriptors": 102
             }
           ]
         }
@@ -272,10 +279,10 @@
         {
           "component": "steamclient",
           "binary": "D:\\a\\_temp\\beta-win64\\steamclient64.dll",
-          "sha256": "caba4826aa3501039d095aee1843a6bfb270fb43a3ab4455b2d6733223579fee",
+          "sha256": "ea23997e2b376df52bf9bbd3f6d2ba628c3b669b45381c03948fe209a7a0e36f",
           "interface_count": 2,
           "missing_interfaces": [],
-          "file": "ipc/steamclient/caba4826aa3501039d095aee1843a6bfb270fb43a3ab4455b2d6733223579fee.toml"
+          "file": "ipc/steamclient/ea23997e2b376df52bf9bbd3f6d2ba628c3b669b45381c03948fe209a7a0e36f.toml"
         }
       ]
     },
@@ -284,18 +291,23 @@
         {
           "component": "steamclient",
           "binary": "D:\\a\\_temp\\beta-win64\\steamclient64.dll",
-          "sha256": "caba4826aa3501039d095aee1843a6bfb270fb43a3ab4455b2d6733223579fee",
-          "entry_count": 25,
-          "missing_targets": [],
-          "file": "pattern/steamclient/caba4826aa3501039d095aee1843a6bfb270fb43a3ab4455b2d6733223579fee.toml"
+          "sha256": "ea23997e2b376df52bf9bbd3f6d2ba628c3b669b45381c03948fe209a7a0e36f",
+          "entry_count": 21,
+          "missing_targets": [
+            "BuildDepotDependency",
+            "GetAppIDForCurrentPipe",
+            "ProcessPendingLicenseUpdates",
+            "RecvPkt"
+          ],
+          "file": "pattern/steamclient/ea23997e2b376df52bf9bbd3f6d2ba628c3b669b45381c03948fe209a7a0e36f.toml"
         },
         {
           "component": "steamui",
           "binary": "D:\\a\\_temp\\beta-win64\\SteamUI.dll",
-          "sha256": "cb387adefbbac64a3c1490d4275d00daf3a1e0219b4580726ef7681db7429278",
+          "sha256": "e7044958d8e652eef04990f74102b42824dfd74fef5b586a42d28ca9d152bf1e",
           "entry_count": 10,
           "missing_targets": [],
-          "file": "pattern/steamui/cb387adefbbac64a3c1490d4275d00daf3a1e0219b4580726ef7681db7429278.toml"
+          "file": "pattern/steamui/e7044958d8e652eef04990f74102b42824dfd74fef5b586a42d28ca9d152bf1e.toml"
         }
       ]
     },
