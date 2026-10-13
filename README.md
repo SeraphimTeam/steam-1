@@ -7,6 +7,6 @@ The version number is the client build's Unix timestamp; the Updated column show
 | **Channel** | **Version** | **Updated (UTC)** |
 |---|---:|---|
 | Stable | 1788652215 | 2026-09-05 23:50:15 UTC |
-| Beta | 1791686101 | 2026-10-11 02:35:01 UTC |
+| Beta | 1791851171 | 2026-10-13 00:26:11 UTC |
 
 This branch holds the Beta channel dump; the Stable channel dump is on the `main` branch.
