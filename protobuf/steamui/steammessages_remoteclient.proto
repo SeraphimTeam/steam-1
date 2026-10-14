@@ -12,6 +12,8 @@ enum ERemoteClientPairWifiAPResult {
     k_ERemoteClientPairWifiAPNoDonglePresent = 5;
     k_ERemoteClientPairWifiAPTimeout = 6;
     k_ERemoteClientPairWifiAPCanceled = 7;
+    k_ERemoteClientPairWifiAPProgress = 8;
+    k_ERemoteClientPairWifiAPConnectFailed = 9;
 }
 
 enum EStreamingDongleFixResult {
@@ -123,6 +125,8 @@ message CMsgRemoteClientDownloadsManagement {
     optional bool enable_all_downloads = 3;
     optional uint32 remove_from_download_list_app_id = 4;
     optional bool suspend_download_throttling = 5;
+    optional uint32 uninstalling_app_id = 6;
+    optional uint32 installing_app_id = 7;
 }
 
 message CMsgRemoteClientUpdateDownloadsController {
@@ -173,6 +177,14 @@ message CMsgRemoteClientDownloadingAppID {
     optional AppUpdateInfo update_info = 2;
 }
 
+message CMsgRemoteClientInstallApp {
+    optional uint32 app_id = 1;
+}
+
+message CMsgRemoteClientInstallAppResponse {
+    optional int32 e_launch_result = 1 [default = 2];
+}
+
 message CMsgRemoteClientStartStream {
     message ReservedGamepad {
         optional uint32 controller_type = 1;
@@ -194,9 +206,18 @@ message CMsgRemoteClientStartStream {
     optional int32 maximum_framerate_denominator = 13;
     optional bool display_hdr = 14;
     optional bool launch_only = 15 [default = false];
+    optional int32 gaming_device_type = 16;
+    optional int32 cloud_conflict_resolution = 17 [default = -1];
+    optional int32 controller_config_conflict_resolution = 18 [default = -1];
 }
 
 message CMsgRemoteClientStartStreamResponse {
+    message CloudConflict {
+        optional uint32 appid = 1;
+        optional uint32 local_time = 2;
+        optional uint32 remote_time = 3;
+    }
+
     optional int32 e_launch_result = 1 [default = 2];
     optional uint32 stream_port = 2;
     repeated int32 launch_options = 3;
@@ -209,6 +230,7 @@ message CMsgRemoteClientStartStreamResponse {
     optional int32 launch_tasks_total = 10;
     optional string vr_connection_params = 11;
     optional bool launch_only = 12 [default = false];
+    optional CMsgRemoteClientStartStreamResponse.CloudConflict cloud_conflict = 13;
 }
 
 message CMsgRemoteClientPing {
@@ -252,10 +274,15 @@ message CMsgRemoteClientWifiAPStatus {
 message CMsgRemoteClientPairWifiAP {
     optional string ssid = 1;
     optional string password = 2;
+    optional bool supports_progress = 3;
 }
 
 message CMsgRemoteClientPairWifiAPResponse {
     optional int32 e_pair_result = 1 [default = 2];
     optional string ssid = 2;
     optional string password = 3;
+    optional int32 steps_done = 4;
+    optional int32 steps_total = 5;
+    optional string step_name = 6;
+    optional uint32 estimated_seconds = 7;
 }
