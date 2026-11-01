@@ -300,7 +300,7 @@
           "component": "steamclient",
           "binary": "D:\\a\\_temp\\beta-win64\\steamclient64.dll",
           "sha256": "5aa9bbc2cecef9188cbb1a09aef34188201f18cda0381f0aefed5502967f8752",
-          "entry_count": 19,
+          "entry_count": 23,
           "missing_targets": [
             "BuildSpawnEnvBlock",
             "GetAppIDForCurrentPipe",
