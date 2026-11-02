@@ -1,0 +1,29 @@
+{
+  "tool": "steam-linux-dumper",
+  "format": 1,
+  "channel": "beta",
+  "binaries": [
+    {
+      "filename": "steamclient.so",
+      "component": "steamclient",
+      "sha256": "6a8aa9f194fa644bc55894a17514207aead6f9ed8d360b0cbbfae5a40ada904c",
+      "size": 53499952,
+      "entry_count": 16
+    },
+    {
+      "filename": "steamui.so",
+      "component": "steamui",
+      "sha256": "63e257a0f54dd70b0a9c8062bcbb220794394bba74b318f72d7a20ff9fc27460",
+      "size": 42588260,
+      "entry_count": 0
+    }
+  ],
+  "unresolved": {
+    "steamclient": [],
+    "steamui": []
+  },
+  "ambiguous": {
+    "steamclient": [],
+    "steamui": []
+  }
+}

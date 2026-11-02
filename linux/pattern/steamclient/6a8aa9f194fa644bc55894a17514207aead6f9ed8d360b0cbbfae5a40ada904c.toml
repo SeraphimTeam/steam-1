@@ -1,0 +1,129 @@
+["CAPIJob::SendAndRecv"]
+rva = "0x11F3700"
+match = "0x11F3722"
+matches = 1
+mode = "prologue"
+candidate = 0
+sig = "8B 7C 24 ?? FF 76 ?? FF 76"
+
+["CAppDataCache::BParseResponseMessage"]
+rva = "0x115C860"
+match = "0x115CAE7"
+matches = 1
+mode = "prologue"
+candidate = 0
+sig = "8B 77 ?? 39 46"
+
+["CSteamEngine::GetServerPipe"]
+rva = "0x1BC47C0"
+match = "0x1BC47CF"
+matches = 1
+mode = "prologue"
+candidate = 0
+sig = "0F B7 CA 31 C0 3B 4B"
+
+["CSteamEngine::ProcessIPCFrame"]
+rva = "0x197E630"
+match = "0x197E67E"
+matches = 1
+mode = "prologue"
+candidate = 0
+sig = "5E C3 FF 74 24"
+
+["CSteamEngine::SetAppIdForCurrentPipe"]
+rva = "0x1984DB0"
+match = "0x152BECA"
+matches = 1
+mode = "relative"
+candidate = 0
+sig = "E8 ?? ?? ?? ?? 83 C4 ?? 8B 45 ?? 85 C0 75 ?? 31 FF"
+
+["CSteamEngine::m_pUser"]
+rva = "0x19974E1"
+match = "0x19974E1"
+matches = 1
+mode = "none"
+candidate = 0
+value = "0xD9C"
+sig = "8B 80 ?? ?? ?? ?? FF 75 ?? ?? ?? ?? 56 FF 75"
+
+["CUser::CheckAppOwnership"]
+rva = "0x1A115C0"
+match = "0x1A1181A"
+matches = 1
+mode = "prologue"
+candidate = 0
+sig = "0F 94 C2 08 51"
+
+["CUser::GetSubscribedApps"]
+rva = "0x1A1F680"
+match = "0x1A1F6BA"
+matches = 1
+mode = "prologue"
+candidate = 0
+sig = "89 75 ?? 0F 29 45"
+
+["CUser::PostCallback"]
+rva = "0x11AA710"
+match = "0x1A0D033"
+matches = 1
+mode = "relative"
+candidate = 0
+sig = "E8 ?? ?? ?? ?? 8B 75 ?? 89 D8"
+
+["CUser::PostCallbackToAppId"]
+rva = "0x11AACA0"
+match = "0x11AAE0A"
+matches = 1
+mode = "prologue"
+candidate = 0
+sig = "84 C0 0F 45 F8 89 F8"
+
+["CUser::SpawnGameId"]
+rva = "0x1A26850"
+match = "0x1A26AB9"
+matches = 1
+mode = "prologue"
+candidate = 0
+sig = "84 C9 0F 45 45"
+
+["CUser::UpdateAppOwnershipTicket"]
+rva = "0x1A20B30"
+match = "0x1A20C71"
+matches = 1
+mode = "prologue"
+candidate = 0
+sig = "52 57 89 DF FF 75"
+
+["CUserAppManager::BuildDepotDependency"]
+rva = "0x11781B0"
+match = "0x1186A6D"
+matches = 1
+mode = "relative"
+candidate = 0
+sig = "E8 ?? ?? ?? ?? 83 C4 ?? 84 C0 74 ?? 8B 45 ?? 85 C0 89 45"
+
+["CWebSocketConnection::BBuildAndAsyncSendFrame"]
+rva = "0x2A563F0"
+match = "0x2A565DF"
+matches = 1
+mode = "prologue"
+candidate = 0
+sig = "89 C6 85 D2 78"
+
+["IClientUtils::m_PipeIndex"]
+rva = "0x19A3A3A"
+match = "0x19A3A3A"
+matches = 1
+mode = "none"
+candidate = 0
+value = "0xFFFFF374"
+sig = "8B 91 ?? ?? ?? ?? 83 F8 FF 74 ?? 8B 89 ?? ?? ?? ?? EB ?? ?? ?? ?? 8B 00 83 F8 FF 74 ?? 8D 04 ?? 8D 04 ?? 3B 50"
+
+["TraceIPC"]
+rva = "0x1BBABB0"
+match = "0x1BBADE1"
+matches = 1
+mode = "prologue"
+candidate = 0
+sig = "0F 45 F8 85 ED"
