@@ -152,7 +152,6 @@ message CMsgClientSettings {
     optional bool enable_gamescope_composer = 5010;
     optional bool enable_gamescope_composer_vr = 5011;
     optional bool show_switch_to_desktop_at_login = 5012;
-    optional bool enable_steamrt64_client = 5013;
     optional bool disable_all_toasts = 6000;
     optional bool disable_toasts_in_game = 6001;
     optional bool play_sound_on_toast = 6002;
@@ -321,6 +320,7 @@ message CMsgClientSettings {
     optional int32 system_idle_screensaver_battery_sec = 24008;
     optional int32 system_idle_screensaver_ac_sec = 24009;
     optional bool vr_show_perf_graph_in_hmd = 25000;
+    optional string vr_launch_programs_hidden = 25003;
     optional bool accessibility_debug_visualizer = 26000;
     optional bool accessibility_screen_reader_enabled = 26001;
     optional float accessibility_screen_reader_rate = 26002;
