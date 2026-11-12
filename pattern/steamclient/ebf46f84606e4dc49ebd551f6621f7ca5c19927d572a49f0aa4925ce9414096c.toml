@@ -58,6 +58,11 @@ name = "GetAppMinutesPlayedData"
 rva = "0xA074D0"
 sig = "89 54 24 10 48 83 EC 58 48 8B 05 ?? ?? ?? ?? 48 89 7C 24 38"
 
+[0xCC79542C]
+name = "GetOrAddAppData"
+rva = "0x4DF790"
+sig = "89 54 24 10 48 83 EC ?? 48 8B 05 ?? ?? ?? ?? 48 89 6C 24 ?? 41 0F B6 E8"
+
 [0x3B3A0F9D]
 name = "GetPackageInfo"
 rva = "0x4DF9F0"
