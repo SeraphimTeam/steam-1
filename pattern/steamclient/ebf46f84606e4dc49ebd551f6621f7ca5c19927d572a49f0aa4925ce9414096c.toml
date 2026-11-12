@@ -98,6 +98,11 @@ name = "LoadPackage"
 rva = "0x4DAC90"
 sig = "44 89 44 24 18 53 55 56 57 41 55"
 
+[0xC821FCA7]
+name = "LicenseDirtyFlagStore"
+rva = "0x9FA73C"
+sig = "41 C6 86 ?? ?? 00 00 01 41 C7 86 ?? ?? 00 00 00 00 00 00"
+
 [0xC451039D]
 name = "MarkLicenseAsChanged"
 rva = "0xA10030"
