@@ -300,10 +300,8 @@
           "component": "steamclient",
           "binary": "D:\\a\\_temp\\stable-win64\\steamclient64.dll",
           "sha256": "ebf46f84606e4dc49ebd551f6621f7ca5c19927d572a49f0aa4925ce9414096c",
-          "entry_count": 28,
-          "missing_targets": [
-            "GetOrAddAppData"
-          ],
+          "entry_count": 29,
+          "missing_targets": [],
           "file": "pattern/steamclient/ebf46f84606e4dc49ebd551f6621f7ca5c19927d572a49f0aa4925ce9414096c.toml"
         },
         {
