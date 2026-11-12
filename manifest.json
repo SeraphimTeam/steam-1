@@ -300,7 +300,7 @@
           "component": "steamclient",
           "binary": "D:\\a\\_temp\\beta-win64\\steamclient64.dll",
           "sha256": "ebf46f84606e4dc49ebd551f6621f7ca5c19927d572a49f0aa4925ce9414096c",
-          "entry_count": 29,
+          "entry_count": 30,
           "missing_targets": [],
           "file": "pattern/steamclient/ebf46f84606e4dc49ebd551f6621f7ca5c19927d572a49f0aa4925ce9414096c.toml"
         },
